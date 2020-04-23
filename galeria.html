@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sitio Consultorio 2</title>
+<style type="text/css">
+body,td,th {
+	font-size: 12px;
+	color: #000000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+body {
+	background-color: #B8B8B8;
+	background-image: url(fondoconsultorio.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	text-align: center;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('BOTONES/tratamiento1.png','BOTONES/perfil1.png','BOTONES/inicio1.png','BOTONES/contacto1.png')">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<table width="920" height="459" border="0" align="center" cellspacing="10">
+  <tbody>
+    <tr>
+      <td width="203" rowspan="2" align="left" valign="top"><img src="LOGO CONSULTORIO1.png" width="141" height="141" alt=""/></td>
+      <td width="45" height="61"><a href="index.html" target="_self" onMouseOver="MM_swapImage('botoninicio','','BOTONES/inicio1.png',1)" onMouseOut="MM_swapImgRestore()"><img src="BOTONES/inicio.png" alt="" width="38" height="16" id="botoninicio"></a></td>
+      <td width="52"><a href="perfil.html" target="_self" onMouseOver="MM_swapImage('botonperfil','','BOTONES/perfil1.png',1)" onMouseOut="MM_swapImgRestore()"><img src="BOTONES/perfil.png" alt="" width="40" height="16" id="botonperfil"></a></td>
+      <td width="72"><a href="tratamientos.html" target="_self" onMouseOver="MM_swapImage('botontratamiento','','BOTONES/tratamiento1.png',1)" onMouseOut="MM_swapImgRestore()"><img src="BOTONES/tratamiento.png" alt="" width="92" height="16" id="botontratamiento"></a></td>
+      <td width="81"><a href="contacto.html" target="_self" onMouseOver="MM_swapImage('botoncontacto','','BOTONES/contacto1.png',1)" onMouseOut="MM_swapImgRestore()"><img src="BOTONES/contacto.png" alt="" width="67" height="16" id="botoncontacto"></a></td>
+      <td width="325" colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="51">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="7" align="center" valign="middle"><p><img src="fotos1.png" width="893" height="161" alt=""/></p></td>
+    </tr>
+    <tr>
+      <td height="25" align="left" valign="bottom"><img src="BOTONES/logo facebook.png" width="23" height="23" alt=""/> <a href="https://www.instagram.com/sergiocymrot/?hl=es-la"><img src="BOTONES/botoninstagram.png" width="23" height="22" alt=""/></a> <img src="BOTONES/botontwiter.png" width="23" height="23" alt=""/></td>
+      <td height="25" align="right" valign="bottom">&nbsp;</td>
+      <td height="25" align="right" valign="bottom">&nbsp;</td>
+      <td height="25" align="right" valign="bottom">&nbsp;</td>
+      <td height="25" align="right" valign="bottom">&nbsp;</td>
+      <td height="25" colspan="2" align="right" valign="bottom">Telefono: 1561078467 Dirección: Caracas 1300, CABA.</td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
